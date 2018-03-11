@@ -102,6 +102,7 @@ $(document).ready(function() {
         parentEl.find('[data-task-name-paragraph]').text(taskTitle);
         parentEl.find('[data-task-content-paragraph]').text(taskContent);
       }
+      getAllTasks();
     });
   }
 
@@ -139,7 +140,7 @@ $(document).ready(function() {
         title: taskTitle,
         content: taskContent
       }),
-      success: getAllTasks
+      success: getAllTasks();
     });
   }
 
