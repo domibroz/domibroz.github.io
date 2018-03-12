@@ -68,7 +68,7 @@ $(document).ready(function() {
     $.ajax({
       url: requestUrl,
       method: 'GET',
-      contentType: "application/json",
+      contentType: "application/json; charset=utf-8",
       success: function(tasks) {
         tasks.forEach(task => {
           availableTasks[task.id] = task;
