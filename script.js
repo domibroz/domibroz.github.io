@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://murmuring-peak-80275.herokuapp.com/v1/';
-  const trelloApiRoot = 'https://murmuring-peak-80275.herokuapp.com/v1/trello/';
+  const apiRoot = 'https://young-cove-36157.herokuapp.com/v1/';
+  const trelloApiRoot = 'https://young-cove-36157.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
